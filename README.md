@@ -172,10 +172,9 @@ Important: this feature is not personalized financial advice. In real profession
 - `images/{TICKER}_volatility.png`
 - `reports/{TICKER}_analysis_report.md`
 
-## Interview Explanation
+**Author:** Shravani  
+**GitHub:** [https://github.com/shravani120625/Stock-Market-Data-Analysis-Prototype-](https://github.com/shravani120625/Stock-Market-Data-Analysis-Prototype-)  
+**LinkedIn:** [https://www.linkedin.com/in/shravani-hande-a443ab331](https://www.linkedin.com/in/shravani-hande-a443ab331)
 
-I built a Python-based Stock Market Data Analyzer that fetches public OHLCV data, stores it in SQLite, computes technical indicators and risk metrics, generates BUY/SELL/HOLD signals, runs a vectorized SMA crossover backtest, exposes analytics through FastAPI, and visualizes market overview, technical analysis, portfolio, alerts, news sentiment, and backtesting results in a dashboard.
+> Disclaimer: This project is for education and portfolio building only. It is not financial advice.
 
-## Disclaimer
-
-This project is for educational purposes and investment research simulation only. It does not provide regulated personalized financial advice, trading recommendations, or guaranteed financial results. Consult a qualified financial professional before making investment decisions.
