@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f8fafc;
+  color: #0f172a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+.page {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 32px 20px;
+}
+
+.toolbar,
+.metrics,
+.panel {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+}
+
+.toolbar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 12px;
+  margin: 20px 0;
+}
+
+.toolbar input {
+  width: 140px;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+}
+
+.toolbar button {
+  border: 0;
+  border-radius: 6px;
+  padding: 10px 14px;
+  color: white;
+  cursor: pointer;
+}
+
+.primary {
+  background: #2563eb;
+}
+
+.success {
+  background: #059669;
+}
+
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.metric {
+  padding: 16px;
+  background: #ffffff;
+}
+
+.metric span {
+  display: block;
+  color: #64748b;
+  font-size: 13px;
+}
+
+.metric strong {
+  display: block;
+  margin-top: 6px;
+  font-size: 22px;
+}
+
+.panel {
+  padding: 18px;
+  margin-bottom: 20px;
+}
+
+.panel h2 {
+  margin: 0 0 16px;
+  font-size: 18px;
+}
+
+.muted {
+  color: #64748b;
+}
+
+@media (max-width: 760px) {
+  .toolbar,
+  .metrics {
+    grid-template-columns: 1fr;
+  }
+
+  .toolbar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .toolbar input {
+    width: 100%;
+  }
+}

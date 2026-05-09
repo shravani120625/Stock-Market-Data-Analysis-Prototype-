@@ -1,0 +1,2 @@
+ticker,rows,start_date,end_date,latest_close,first_close,total_return_pct,avg_daily_return_pct,annual_volatility_pct,highest_price,highest_price_date,lowest_price,lowest_price_date,trend_signal
+AAPL,88,2026-01-02,2026-05-08,293.32000732421875,271.010009765625,8.232167357171738,0.10356591475801924,25.338879484614374,294.760009765625,2026-05-08,243.4199981689453,2026-01-20,HOLD - Short-term trend is above long-term trend

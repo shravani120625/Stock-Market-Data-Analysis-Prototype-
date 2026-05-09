@@ -1,0 +1,16 @@
+yfinance
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+streamlit
+fastapi
+uvicorn
+pydantic
+ta
+requests
+apscheduler
+python-dotenv
+scipy
+httpx

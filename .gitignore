@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+.env
+
+# Databases
+db/*.db
+backend/db/*.db
+
+# Runtime logs
+logs/
+*.log
+
+# Frontend dependencies/build output
+node_modules/
+.next/
+apps/web/node_modules/
+apps/web/.next/
+frontend/nextjs/node_modules/
+frontend/nextjs/.next/
+
+# Large generated files can be ignored case-by-case.
+# Keep sample outputs, reports, and screenshots for portfolio proof.
+
+# IDE
+.vscode/
+.idea/
